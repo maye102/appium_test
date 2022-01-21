@@ -14,7 +14,7 @@ poll = 2
 class IAppium(unittest.TestCase):
 
     def setUp(self):
-        data = json.load(open("..\iAppium_python.json"))
+        data = json.load(open(f'{os.path.dirname(os.path.abspath("."))}\\iAppium_python.json'))
         desired_caps = dict()
         appium_server_url = data['appium_server_url']
         desired_caps['platformName'] = data['desired_caps']['platformName']
