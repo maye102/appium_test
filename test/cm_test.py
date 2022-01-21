@@ -14,6 +14,8 @@ poll = 2
 class IAppium(unittest.TestCase):
 
     def setUp(self):
+        print(os.path.abspath('iAppium_python.json'))
+        print(os.getcwd())
         with open("iAppium_python.json","r", encoding="utf-8") as f:
             data = json.load(f)
 
