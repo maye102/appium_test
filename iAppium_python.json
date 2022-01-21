@@ -1,0 +1,11 @@
+{
+    "desired_caps": {
+        "platformName": "Android",
+        "deviceName": "127.0.0.1:62001",
+        "noReset": "false",
+        "automationName": "UiAutomator2",
+        "appPackage": "com.example.android.contactmanager",
+        "appActivity": ".ContactManager"
+    },
+    "appium_server_url": "http://localhost:4723/wd/hub"
+}
