@@ -5,7 +5,7 @@ import unittest
 import time
 import os
 import allure
-from pytest_testconfig import config
+
 
 timeout = 30
 poll = 2
